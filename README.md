@@ -1,6 +1,6 @@
 # Punit Kumar - Personal Portfolio
 
-A modern, responsive portfolio website showcasing Punit Kumar's skills, projects, and contact information.
+A modern, responsive portfolio website showcasing my skills, projects, and contact information.
 
 ## Features
 
@@ -33,8 +33,8 @@ A modern, responsive portfolio website showcasing Punit Kumar's skills, projects
 - `index.html` - Main HTML file
 - `styles.css` - CSS styling
 - `script.js` - JavaScript for interactivity
-- `profile.jpg` - Your profile photo (please add this)
-- `intro.mp3` - Your audio introduction (please add this)
+- `profile.jpg` - profile photo (please add this)
+- `intro.mp3` - audio introduction (please add this)
 
 ## Customization
 
