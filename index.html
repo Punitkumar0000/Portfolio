@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en" class="light-mode"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Punit Kumar - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- GSAP for animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+</head>
+<body>
+    <div class="cursor-outer"></div>
+    <div class="cursor-inner"></div>
+    <header>
+        <nav>
+            <a href="https://www.linkedin.com/in/punit-kumar-a6710221b" class="logo" target="_blank">PK</a>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education-experience">Education & Experience</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+                <i class="fas fa-moon"></i>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="profile-photo-container">
+                        <img src="profile.png" alt="Punit Kumar" class="profile-photo">
+                    </div>
+                    <h1 class="slide-in-text">Hi 👋, I'm <span class="highlight">Punit Kumar</span></h1>
+                    <p class="subtitle">A passionate Learner & Software developer from India</p>
+                    <div class="social-icons">
+                        <a href="#contact" class="social-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#contact" class="social-icon">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.instagram.com/your-instagram" target="_blank" class="social-icon">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="http://t.me/Tangsang12" target="_blank" class="social-icon">
+                            <i class="fab fa-telegram"></i>
+                        </a>
+                        <a href="https://leetcode.com/u/Punitkumar02/" target="_blank" class="social-icon">
+                            <i class="fas fa-code-branch"></i>
+                        </a>
+                        <a href="https://www.hackerrank.com/profile/punitkumarsain21" target="_blank" class="social-icon">
+                            <i class="fab fa-hackerrank"></i>
+                        </a>
+                    </div>
+                    <div class="audio-intro">
+                        <button id="play-intro" class="audio-button">
+                            <i class="fas fa-play"></i> Play My Introduction
+                        </button>
+                        <audio id="intro-audio" src="assets/music/Intro.mp3"></audio>
+                    </div>
+                    <div class="cv-download">
+                        <a href="assets/PunitResume.pdf" class="cv-button" download>
+                            <i class="fas fa-download"></i> Download CV
+                        </a>
+                    </div>
+                    <a href="#contact" class="cta-button">Get In Touch</a>
+                </div>
+            </div>
+        </section>
+        <!--------------------------------music tag starts here-->
+        <section>
+            <img class="soundbutton paused" src="./assets/music/music.gif" alt="Alt">
+                <audio class="audio" src="./assets/music/music1.1.mp3" loop></audio>
+            </section>
+            
+        
+        <!-------------------------------music tag ends here-->
+        <section id="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p class="about-description">
+                            I am a dedicated software developer with a passion for creating efficient, user-friendly applications. With a solid foundation in Java, JavaScript, and database technologies, I enjoy tackling complex problems and turning them into elegant solutions.
+                        </p>
+                        <p class="about-description">
+                            My journey in technology began with my fascination for how software can transform businesses and improve lives, which led me to pursue a career in software development. I'm constantly expanding my skill set and currently focusing on modern web and mobile technologies.
+                        </p>
+                    </div>
+                    <div class="about-grid">
+                        <div class="about-item">
+                            <div class="about-icon">
+                                <i class="fas fa-seedling"></i>
+                            </div>
+                            <div class="about-item-content">
+                                <h3>Current Focus</h3>
+                                <p>I'm currently learning Node.js, React.js & Android Studio</p>
+                            </div>
+                        </div>
+                        <div class="about-item">
+                            <div class="about-icon">
+                                <i class="fas fa-comments"></i>
+                            </div>
+                            <div class="about-item-content">
+                                <h3>Expertise</h3>
+                                <p>Ask me about Java, JavaScript, MySQL & SDLC</p>
+                            </div>
+                        </div>
+                        <div class="about-item">
+                            <div class="about-icon">
+                                <i class="fas fa-bolt"></i>
+                            </div>
+                            <div class="about-item-content">
+                                <h3>Fun Fact</h3>
+                                <p>I am a good communicator</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <div class="container">
+                <h2>Languages and Tools</h2>
+                <div class="skills-grid">
+                    <div class="skill-item"><i class="fab fa-css3-alt"></i> CSS3</div>
+                    <div class="skill-item"><i class="fab fa-git-alt"></i> Git</div>
+                    <div class="skill-item"><i class="fab fa-github"></i> GitHub</div>
+                    <div class="skill-item"><i class="fab fa-html5"></i> HTML5</div>
+                    <div class="skill-item"><i class="fab fa-java"></i> Java</div>
+                    <div class="skill-item"><i class="fab fa-js"></i> JavaScript</div>
+                    <div class="skill-item"><i class="fas fa-database"></i> MongoDB</div>
+                    <div class="skill-item"><i class="fas fa-database"></i> MySQL</div>
+                    <div class="skill-item"><i class="fab fa-node"></i> Node.js</div>
+                    <div class="skill-item"><i class="fab fa-python"></i> Python</div>
+                    <div class="skill-item"><i class="fas fa-leaf"></i> Spring Boot</div>
+                    <div class="skill-item"><i class="fab fa-css3"></i> Tailwind CSS</div>
+                    <div class="skill-item"><i class="fas fa-code"></i> OOP's</div>
+                    <div class="skill-item"><i class="fas fa-project-diagram"></i> SDLC</div>
+                    <div class="skill-item"><i class="fas fa-sync-alt"></i> Agile Methodologies</div>
+                    <div class="skill-item"><i class="fas fa-chart-bar"></i> Data Analytics</div>
+                    <div class="skill-item"><i class="fas fa-database"></i> DBMS</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <h3>Clothify: The Ultimate Fashion Destination</h3>
+                        <p>Crafted an engaging responsive frontend for an e-commerce clothing website using JavaScript, HTML and CSS. Blended smooth animations using GSAP library and optimized scrolling with Lenis library. Ensured cross-device compatibility for an engaging user experience.</p>
+                        <div class="project-tags">
+                            <span>JavaScript</span>
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>GSAP</span>
+                        </div>
+                        <a href="https://punitkumar0000.github.io/CloThify-The-Ultimate-Fashion-Destination/" class="project-link" target="_blank">View Project <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                    <div class="project-card">
+                        <h3>Dynamic Data Safeguarding In Cloud Storage</h3>
+                        <p>Designed a secure cloud storage system for managing dynamic and append-only data using Java, Servlets, JSP and MySQL. Strengthened data integrity and security in distributed computing environments. Assembled using JDBC for database connectivity and deployed on Tomcat.</p>
+                        <div class="project-tags">
+                            <span>Java</span>
+                            <span>Servlets</span>
+                            <span>JSP</span>
+                            <span>MySQL</span>
+                        </div>
+                        <a href="https://github.com/Punitkumar0000/SECURE-CLOUD-STORAGE-WITH-DATA-DYNAMICS-USING-SECURE-NETWORK-CODING-TECHNIQUES.git" class="project-link" target="_blank">View Project <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                    <div class="project-card">
+                        <h3>Online-Pizza-Ordering-System</h3>
+                        <p>It is a web-based application designed to allow customers to browse pizza menus, customize their orders, and place them online. It provides an intuitive user interface and a secure backend to manage orders.</p>
+                        <div class="project-tags">
+                            <span>Web Development</span>
+                        </div>
+                        <a href="https://github.com/punitkumar0000/Online-Pizza-Ordering-System" class="project-link" target="_blank">View Project <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                    <div class="project-card">
+                        <h3>Food-Delivery-Application</h3>
+                        <p>Food delivery application using MERN stack.</p>
+                        <div class="project-tags">
+                            <span>MERN</span>
+                            <span>Web Development</span>
+                        </div>
+                        <a href="https://github.com/punitkumar0000/Food-Delivery-Application" class="project-link" target="_blank">View Project <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                    <div class="project-card">
+                        <h3>To-Do List</h3>
+                        <p>I built a simple to-do list application using JavaScript and the DOM. Features include: -Adding new tasks dynamically -Displaying tasks in a list -A button to remove each task.</p>
+                        <div class="project-tags">
+                            <span>JavaScript</span>
+                            <span>HTML</span>
+                            <span>CSS</span>
+                        </div>
+                        <a href="https://punitkumar0000.github.io/To-Do-List/" class="project-link" target="_blank">View Project <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                    <div class="project-card">
+                        <h3>Profile-Card</h3>
+                        <p>Created a responsive, simple Profile Card using HTML and CSS.</p>
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                        </div>
+                        <a href="https://punitkumar0000.github.io/Profile-Card/" class="project-link" target="_blank">View Project <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education-experience">
+            <div class="container">
+                <h2>Education and Experience</h2>
+                <div class="timeline">
+                    <!-- Education -->
+                    <div class="timeline-section">
+                        <h3>Education</h3>
+                        <div class="timeline-item">
+                            <div class="timeline-content">
+                                <h4>B.Tech in Computer Science & Engineering</h4>
+                                <p class="timeline-place">St Peter's Engineering College (SPEC)</p>
+                                <p class="timeline-subtitle">Hyderabad</p>
+                                <p class="timeline-date">2020 - 2024</p>
+                                <p class="timeline-description">CGPA: 7.55</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-content">
+                                <h4>Higher Secondary Education (Class XII)</h4>
+                                <p class="timeline-place">Kites Junior College (KJS)</p>
+                                <p class="timeline-subtitle">Telangana Board of Intermediate Education (TSBIE)</p>
+                                <p class="timeline-date">2018 - 2020</p>
+                                <p class="timeline-description">Percentage: 67%</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-content">
+                                <h4>Secondary Education (Class X)</h4>
+                                <p class="timeline-place">Army Public School Bolarum (APSB)</p>
+                                <p class="timeline-subtitle">Central Board of Secondary Education (CBSE)</p>
+                                <p class="timeline-date">2018</p>
+                                <p class="timeline-description">CGPA: 6.5</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Experience -->
+                    <div class="timeline-section">
+                        <h3>Experience</h3>
+                        <div class="timeline-item">
+                            <div class="timeline-content">
+                                <h4>Full Stack MERN Development Intern</h4>
+                                <p class="timeline-place">Webstack Academy</p>
+                                <p class="timeline-subtitle">Bengaluru</p>
+                                <p class="timeline-date">Aug 2023 - Oct 2023</p>
+                                <ul class="timeline-details">
+                                    <li>Developed full-stack applications using MERN stack</li>
+                                    <li>Built responsive and interactive user interfaces</li>
+                                    <li>Worked with RESTful APIs and database integration</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-content">
+                                <h4>CSE Coordinator</h4>
+                                <p class="timeline-place">Student Council Club</p>
+                                <p class="timeline-subtitle">St. Peter's Engineering College</p>
+                                <p class="timeline-date">Aug 2022 - Mar 2024</p>
+                                <ul class="timeline-details">
+                                    <li>Led and coordinated technical events and workshops</li>
+                                    <li>Managed team activities and student engagement</li>
+                                    <li>Organized various technical and cultural programs</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="certifications">
+            <h2>Certifications</h2>
+            <div class="container cert-container">
+                <div class="slider">
+                    <div class="card">
+                        <img src="assets/01.jpg" alt="Certification 1"/>
+                    </div>
+                    <div class="card">
+                        <img src="assets/02.jpg" alt="Certification 2"/>
+                    </div>
+                    <div class="card">
+                        <img src="assets/03.jpg" alt="Certification 3"/>
+                    </div>
+                    <div class="card">
+                        <img src="assets/04.jpg" alt="Certification 4"/>
+                    </div>
+                    <div class="card">
+                        <img src="assets/05.jpg" alt="Certification 5"/>
+                    </div>
+                    <div class="card">
+                        <img src="assets/06.jpg" alt="Certification 6"/>
+                    </div>
+                    <div class="card">
+                        <img src="assets/07.jpg" alt="Certification 7"/>
+                    </div>
+                    <div class="card">
+                        <img src="assets/08.jpg" alt="Certification 8"/>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2>Contact Me</h2>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>punitkumarsain2002@gmail.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <a href="https://www.linkedin.com/in/punit-kumar-a6710221b" target="_blank">linkedin.com/in/punit-kumar-a6710221b</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <a href="https://github.com/punitkumar0000" target="_blank">github.com/punitkumar0000</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Punit Kumar. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
